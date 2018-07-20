@@ -989,13 +989,16 @@ fieldset.quick-login input.inputbox {
 	border-color: #555;
 	color: #f0f0f0;
 }
-
+.inputbox2 {
+	background-color: #FFFFFF;
+	color: #333333;
+}
 .inputbox:-moz-placeholder {
-	color: #8fcc14;
+	color: #333333;
 }
 
 .inputbox::-webkit-input-placeholder {
-	color: #8fcc14;
+	color: #333333;
 }
 
 .inputbox:hover {
@@ -1005,6 +1008,11 @@ fieldset.quick-login input.inputbox {
 .inputbox:focus {
 	border-color: #999;
 	color: #f0f0f0;
+}
+
+.inputbox2:focus {
+	border-color: #999;
+	color: #333333;
 }
 
 .inputbox:focus:-moz-placeholder {
