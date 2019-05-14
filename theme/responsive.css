@@ -12,6 +12,7 @@
 @media (max-width: 350px) {
 	.dropdown-extended .dropdown-contents {
 		width: auto;
+		min-width: 185px;
 	}
 }
 
@@ -422,6 +423,7 @@
 	.column1, .column2, .left-box.profile-details {
 		float: none;
 		width: auto;
+		clear: both;
 	}
 
 	/* Polls
