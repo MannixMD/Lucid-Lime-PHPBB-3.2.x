@@ -1288,3 +1288,7 @@ ul.linklist:after,
 .dropdown .clone.hidden + li {
 	border-top: none;
 }
+
+.forumbg-table {
+    background-size: auto 30px;
+}
